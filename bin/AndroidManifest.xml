@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="screenoption.com"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="14"
+        android:targetSdkVersion="14" />
+	<uses-permission android:name="android.permission.INTERNET"/>
+	<uses-permission android:name="android.permission.ACCESS_NETWORK_STATE"/>
+	<uses-permission android:name="android.permission.ACCESS_WIFI_STATE"/>
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name="screenoption.MainActivity"
+            android:label="Android nâng cao"
+            android:icon="@drawable/android" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".Screenoption1Activity"
+            android:label="@string/title_activity_screenoption1" >
+        </activity>
+        <activity android:name="sinhntpk00491_lab1.lab1" android:label="Lap 1" android:icon="@drawable/lab1"></activity>
+        <activity android:name="sinhntpk00491_lab2.lab2" android:label="Lap 2" android:icon="@drawable/lab1"></activity>
+        <activity android:name="sinhntpk00491_lab3.lab3" android:label="Lap 3" android:icon="@drawable/lg"></activity>
+        <activity android:name="sinhntpk00491_lab3.lab3_1" android:label="Đăng ký" android:icon="@drawable/lg"></activity>
+        <activity android:name="sinhntpk00491_lab3.lab3_2" android:label="Quên mật khẩu" android:icon="@drawable/lg"></activity>
+        <activity android:name="sinhntpk00491_lab4.lab4" android:label="Lap 4"></activity>
+    </application>
+
+</manifest>
