@@ -32,9 +32,12 @@
         <activity android:name="sinhntpk00491_lab1.lab1" android:label="Lap 1" android:icon="@drawable/lab1"></activity>
         <activity android:name="sinhntpk00491_lab2.lab2" android:label="Lap 2" android:icon="@drawable/lab1"></activity>
         <activity android:name="sinhntpk00491_lab3.lab3" android:label="Lap 3" android:icon="@drawable/lg"></activity>
-        <activity android:name="sinhntpk00491_lab3.lab3_1" android:label="Đăng ký" android:icon="@drawable/lg"></activity>
+        <activity android:name="sinhntpk00491_lab3.lab3_1" android:label="Đăng ký" android:icon="@drawable/lg" android:theme="@android:style/Theme.NoTitleBar"></activity>
         <activity android:name="sinhntpk00491_lab3.lab3_2" android:label="Quên mật khẩu" android:icon="@drawable/lg"></activity>
+        <activity android:name="sinhntpk00491_lab3.lab3_manager" android:label="Quản lý" android:icon="@drawable/lg"></activity>
         <activity android:name="sinhntpk00491_lab4.lab4" android:label="Lap 4"></activity>
+        <activity android:name="sinhntpk00491_lab5.lab5" android:label="Lap 5"></activity>
+        <activity android:name="about_me.infomation" android:label="About me"></activity>
     </application>
 
 </manifest>

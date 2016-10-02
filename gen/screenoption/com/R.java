@@ -23,58 +23,77 @@ public final class R {
     }
     public static final class drawable {
         public static final int android=0x7f020000;
-        public static final int b_1281578933213=0x7f020001;
-        public static final int bg=0x7f020002;
-        public static final int bg1=0x7f020003;
-        public static final int bg2=0x7f020004;
-        public static final int bg3=0x7f020005;
-        public static final int bg4=0x7f020006;
-        public static final int ic_launcher=0x7f020007;
-        public static final int lab1=0x7f020008;
-        public static final int lg=0x7f020009;
+        public static final int avatar=0x7f020001;
+        public static final int b_1281578933213=0x7f020002;
+        public static final int bg=0x7f020003;
+        public static final int bg1=0x7f020004;
+        public static final int bg2=0x7f020005;
+        public static final int bg3=0x7f020006;
+        public static final int bg4=0x7f020007;
+        public static final int bg5=0x7f020008;
+        public static final int bg6=0x7f020009;
+        public static final int bia=0x7f02000a;
+        public static final int button_style=0x7f02000b;
+        public static final int edit=0x7f02000c;
+        public static final int ic_launcher=0x7f02000d;
+        public static final int info=0x7f02000e;
+        public static final int lab1=0x7f02000f;
+        public static final int lg=0x7f020010;
+        public static final int phone=0x7f020011;
+        public static final int sms=0x7f020012;
     }
     public static final class id {
-        public static final int TableLayout1=0x7f080014;
-        public static final int TextView01=0x7f080011;
-        public static final int Wv=0x7f08000e;
-        public static final int action_settings=0x7f08001f;
-        public static final int btn1=0x7f080001;
-        public static final int btn2=0x7f080002;
-        public static final int btn3=0x7f080003;
-        public static final int btn4=0x7f080004;
-        public static final int btn5=0x7f080005;
-        public static final int btn6=0x7f080006;
-        public static final int btn7=0x7f080007;
-        public static final int btn8=0x7f080008;
-        public static final int btnLogin=0x7f08000d;
-        public static final int btnReset=0x7f080013;
-        public static final int button2=0x7f080019;
-        public static final int button3=0x7f08001a;
-        public static final int button4=0x7f08001c;
-        public static final int button5=0x7f08001e;
-        public static final int editText1=0x7f080017;
-        public static final int forgot=0x7f080010;
-        public static final int password=0x7f080012;
-        public static final int register=0x7f08000f;
-        public static final int repass=0x7f08000c;
-        public static final int tableRow1=0x7f080015;
-        public static final int tableRow2=0x7f080016;
-        public static final int tableRow3=0x7f080018;
-        public static final int tableRow4=0x7f08001b;
-        public static final int tableRow5=0x7f08001d;
-        public static final int textView1=0x7f080000;
-        public static final int textView2=0x7f080009;
-        public static final int textView3=0x7f08000b;
-        public static final int username=0x7f08000a;
+        public static final int LinearLayout1=0x7f080004;
+        public static final int Lv=0x7f080024;
+        public static final int Notifi=0x7f08001e;
+        public static final int TextView01=0x7f080021;
+        public static final int Wv=0x7f08001d;
+        public static final int aboutme=0x7f080005;
+        public static final int action_settings=0x7f080025;
+        public static final int btn1=0x7f08000c;
+        public static final int btn2=0x7f08000d;
+        public static final int btn3=0x7f08000e;
+        public static final int btn4=0x7f08000f;
+        public static final int btn5=0x7f080010;
+        public static final int btn6=0x7f080011;
+        public static final int btn7=0x7f080012;
+        public static final int btn8=0x7f080013;
+        public static final int btnClose=0x7f080002;
+        public static final int btnInfo=0x7f080019;
+        public static final int btnLogin=0x7f08001c;
+        public static final int btnPhone=0x7f080017;
+        public static final int btnRegister=0x7f080023;
+        public static final int btnSms=0x7f080018;
+        public static final int button2=0x7f080003;
+        public static final int forgot=0x7f080020;
+        public static final int imageButton1=0x7f080016;
+        public static final int imageView1=0x7f080000;
+        public static final int name=0x7f080001;
+        public static final int phoneNb=0x7f080015;
+        public static final int register=0x7f08001f;
+        public static final int textView1=0x7f080014;
+        public static final int textView3=0x7f080006;
+        public static final int textView5=0x7f080008;
+        public static final int textView6=0x7f080009;
+        public static final int textView7=0x7f08000a;
+        public static final int textView8=0x7f08000b;
+        public static final int txtPassword=0x7f080022;
+        public static final int txtRepass=0x7f08001b;
+        public static final int txtUsername=0x7f08001a;
+        public static final int txtnotifi=0x7f080007;
     }
     public static final class layout {
-        public static final int activity_screenoption=0x7f030000;
-        public static final int lab1=0x7f030001;
-        public static final int lab2=0x7f030002;
-        public static final int lab3=0x7f030003;
-        public static final int lab3_1_register=0x7f030004;
-        public static final int lab3_2_forgot=0x7f030005;
-        public static final int lab4=0x7f030006;
+        public static final int about_me=0x7f030000;
+        public static final int activity_screenoption=0x7f030001;
+        public static final int item_new=0x7f030002;
+        public static final int lab1=0x7f030003;
+        public static final int lab2=0x7f030004;
+        public static final int lab3=0x7f030005;
+        public static final int lab3_1_register=0x7f030006;
+        public static final int lab3_2_forgot=0x7f030007;
+        public static final int lab3_manager=0x7f030008;
+        public static final int lab4=0x7f030009;
+        public static final int lab5_lv=0x7f03000a;
     }
     public static final class menu {
         public static final int main=0x7f070000;
@@ -113,5 +132,6 @@ public final class R {
  All customizations that are NOT specific to a particular API-level can go here. 
          */
         public static final int AppTheme=0x7f060001;
+        public static final int hidetitle=0x7f060002;
     }
 }
