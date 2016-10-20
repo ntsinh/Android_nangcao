@@ -13,6 +13,9 @@ import sinhntpk00491_lab2.lab2;
 import sinhntpk00491_lab3.lab3;
 import sinhntpk00491_lab4.lab4;
 import sinhntpk00491_lab5.lab5;
+import sinhntpk00491_lab6.lab6;
+import sinhntpk00491_lab7.lab7;
+import sinhntpk00491_lab8.lab8;
 
 public class MainActivity extends Activity implements OnClickListener{
 	Button btn1,btn2,btn3,btn4,btn5,btn6,btn7,btn8;
@@ -40,7 +43,7 @@ public class MainActivity extends Activity implements OnClickListener{
 		btn8.setOnClickListener(this);
 		about.setOnClickListener(this);
 	}
-
+	
 	@Override
 	public void onClick(View v) {
 //		if(v==btn1){
@@ -63,18 +66,18 @@ public class MainActivity extends Activity implements OnClickListener{
 			Intent intent = new Intent(getApplicationContext(),lab5.class);
 			startActivity(intent);
 		}
-//		if(v==btn6){
-//			Intent intent = new Intent(getApplicationContext(),lab6.class);
-//			startActivity(intent);
-//		}
-//		if(v==btn7){
-//			Intent intent = new Intent(getApplicationContext(),lab7.class);
-//			startActivity(intent);
-//		}
-//		if(v==btn8){
-//			Intent intent = new Intent(getApplicationContext(),lab8.class);
-//			startActivity(intent);
-//		}
+		if(v==btn6){
+			Intent intent = new Intent(getApplicationContext(),lab6.class);
+			startActivity(intent);
+		}
+		if(v==btn7){
+			Intent intent = new Intent(getApplicationContext(),lab7.class);
+			startActivity(intent);
+		}
+		if(v==btn8){
+			Intent intent = new Intent(getApplicationContext(),lab8.class);
+			startActivity(intent);
+		}
 		if(v==about){
 			Intent intent = new Intent(getApplicationContext(),infomation.class);
 			startActivity(intent);

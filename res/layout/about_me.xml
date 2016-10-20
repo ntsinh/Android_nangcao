@@ -45,7 +45,7 @@
             android:textSize="25sp" />
 
         <Button
-            android:id="@+id/button2"
+            android:id="@+id/btnCloseNotifi"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_weight="1.5"
@@ -68,7 +68,7 @@
             android:textSize="30sp" />
 
         <TextView
-            android:id="@+id/textView3"
+            android:id="@+id/txtname"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="Giới tính: Nam"
@@ -82,7 +82,7 @@
             android:textSize="30sp" />
 
         <TextView
-            android:id="@+id/textView5"
+            android:id="@+id/txtweight"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="Sống tại Buôn Ma Thuột"

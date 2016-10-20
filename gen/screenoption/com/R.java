@@ -49,7 +49,7 @@ public final class R {
         public static final int TextView01=0x7f080021;
         public static final int Wv=0x7f08001d;
         public static final int aboutme=0x7f080005;
-        public static final int action_settings=0x7f080025;
+        public static final int action_settings=0x7f08003a;
         public static final int btn1=0x7f08000c;
         public static final int btn2=0x7f08000d;
         public static final int btn3=0x7f08000e;
@@ -59,28 +59,49 @@ public final class R {
         public static final int btn7=0x7f080012;
         public static final int btn8=0x7f080013;
         public static final int btnClose=0x7f080002;
+        public static final int btnCloseNotifi=0x7f080003;
+        public static final int btnDel=0x7f080035;
         public static final int btnInfo=0x7f080019;
         public static final int btnLogin=0x7f08001c;
+        public static final int btnNotifi=0x7f08002d;
         public static final int btnPhone=0x7f080017;
         public static final int btnRegister=0x7f080023;
+        public static final int btnSend=0x7f08002b;
         public static final int btnSms=0x7f080018;
-        public static final int button2=0x7f080003;
+        public static final int btnTinh=0x7f080034;
+        public static final int btnback=0x7f080036;
+        public static final int content_frame=0x7f080038;
+        public static final int drawer_layout=0x7f080037;
+        public static final int drawer_list=0x7f080039;
         public static final int forgot=0x7f080020;
         public static final int imageButton1=0x7f080016;
         public static final int imageView1=0x7f080000;
         public static final int name=0x7f080001;
         public static final int phoneNb=0x7f080015;
         public static final int register=0x7f08001f;
-        public static final int textView1=0x7f080014;
-        public static final int textView3=0x7f080006;
-        public static final int textView5=0x7f080008;
+        public static final int textView2=0x7f080025;
+        public static final int textView3=0x7f080027;
+        public static final int textView4=0x7f080029;
         public static final int textView6=0x7f080009;
         public static final int textView7=0x7f08000a;
         public static final int textView8=0x7f08000b;
+        public static final int txtA=0x7f080030;
+        public static final int txtAddress=0x7f080028;
+        public static final int txtB=0x7f080031;
+        public static final int txtC=0x7f080032;
+        public static final int txtInfo=0x7f08002e;
+        public static final int txtKetqua=0x7f08002f;
+        public static final int txtName=0x7f080026;
+        public static final int txtNoti=0x7f080014;
+        public static final int txtNotifi=0x7f080033;
         public static final int txtPassword=0x7f080022;
         public static final int txtRepass=0x7f08001b;
         public static final int txtUsername=0x7f08001a;
+        public static final int txtWeight=0x7f08002a;
+        public static final int txtaddress=0x7f08002c;
+        public static final int txtname=0x7f080006;
         public static final int txtnotifi=0x7f080007;
+        public static final int txtweight=0x7f080008;
     }
     public static final class layout {
         public static final int about_me=0x7f030000;
@@ -94,6 +115,13 @@ public final class R {
         public static final int lab3_manager=0x7f030008;
         public static final int lab4=0x7f030009;
         public static final int lab5_lv=0x7f03000a;
+        public static final int lab6=0x7f03000b;
+        public static final int lab6_intent=0x7f03000c;
+        public static final int lab7=0x7f03000d;
+        public static final int lab7_pt=0x7f03000e;
+        public static final int lab8=0x7f03000f;
+        public static final int lab8_notifi=0x7f030010;
+        public static final int lab8_slidemenu=0x7f030011;
     }
     public static final class menu {
         public static final int main=0x7f070000;
@@ -103,6 +131,7 @@ public final class R {
         public static final int action_settings=0x7f050002;
         public static final int app_name=0x7f050000;
         public static final int hello_world=0x7f050001;
+        public static final int title_activity_main=0x7f050004;
         public static final int title_activity_screenoption1=0x7f050003;
     }
     public static final class style {
